@@ -63,17 +63,17 @@ body{
     margin-top:-20px;
    color: tomato;
 }
-.icons-container{
+ .icons-container{
     width:300px;
     display: flex;
     justify-content: space-between;
 }
-.ico{
+ .ico{
     font-size: 25px;
     border-radius: 25px;
-    box-shadow: 0px 0px 4px 4px grey;
-    padding: 7px 10px;
-}
+    box-shadow: 0px 0px 4px 4px grey; 
+     padding: 7px 10px; 
+} 
 .bi-linkedin{
     color: rgb(11, 11, 243);
 }
@@ -101,14 +101,15 @@ body{
     text-align: center;
     padding: 5px;
     width:400px;
+    border-radius: 4px;
    
 }
 .project-img{
-    width:300px;
-    height: 200px;
+    width:403px;
+    height: 250px;
     object-fit: cover;
     margin-top: 10px;
-    border-radius: 25px;
+    border-radius: 18px;
 }
 .btn{
     background-color: rgb(118, 7, 222);
@@ -226,5 +227,15 @@ body{
   .p{
     text-align: center;
     align-items: center;
+
+  }
+  .logo{
+    margin-top: 3px;
+  }
+  .btn{
+    border-radius: 4px;
+  }
+  .project-card{
+    border-radius: 4px;
   }
 }
